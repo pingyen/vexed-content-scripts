@@ -1,0 +1,66 @@
+{
+  "name": "Ping-Yen's Content Scripts",
+  "version": "0.1",
+  "manifest_version": 3,
+  "permissions": [
+    "scripting"
+  ],
+  "icons": {
+    "128": "static/Vexed.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/anduril-tuner.js"
+      ],
+      "matches": [
+        "https://www.anduril.tw/*"
+      ]
+    },
+    {
+      "js": [
+        "scripts/chinatimes-tuner.js"
+      ],
+      "matches": [
+        "https://www.chinatimes.com/*"
+      ]
+    },
+    {
+      "js": [
+        "scripts/manny-tuner.js"
+      ],
+      "matches": [
+        "https://mailchi.mp/manny-li/*"
+      ]
+    },
+    {
+      "js": [
+        "scripts/ptt-18-clicker.js"
+      ],
+      "matches": [
+        "https://www.ptt.cc/ask/over18?from=*"
+      ]
+    },
+    {
+      "js": [
+        "scripts/udn-tuner.js"
+      ],
+      "matches": [
+        "https://udn.com/*",
+        "https://money.udn.com/*"
+      ]
+    },
+    {
+      "js": [
+        "scripts/utm-cleaner.js"
+      ],
+      "matches": [
+        "https://udn.com/*",
+        "https://money.udn.com/*",
+        "https://www.cna.com.tw/*",
+        "https://news.cnyes.com/*",
+        "https://www.inside.com.tw/*"
+      ]
+    }
+  ]
+}
