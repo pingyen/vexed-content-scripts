@@ -4,7 +4,7 @@
 
   let changed = false;
 
-  for (const param of ['from', 'list_ch2_index']) {
+  for (const param of ['from', 'list_ch2_index', 'dark_mode']) {
     if (searchParams.has(param)) {
       searchParams.delete(param);
       changed = true;
